@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
     getGoldBtn.addEventListener('click', () => {
         referralsCount.textContent = state.referrals;
         // Генерируем реферальную ссылку
-        const botUsername = "YOUR_BOT_NAME_HERE"; // !!! ЗАМЕНИТЕ НА ЮЗЕРНЕЙМ ВАШЕГО БОТА
+        const botUsername = "@qqtest134_bot"; // !!! ЗАМЕНИТЕ НА ЮЗЕРНЕЙМ ВАШЕГО БОТА
         const userId = tg.initDataUnsafe.user.id;
         refLinkInput.value = `https://t.me/${botUsername}?start=${userId}`;
         showView('get-gold-view');
